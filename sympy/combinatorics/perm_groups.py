@@ -4,7 +4,7 @@ from math import factorial as _factorial, log, prod
 from itertools import chain, product
 
 
-from sympy.combinatorics import Permutation
+from sympy.combinatorics.permutations import Permutation
 from sympy.combinatorics.permutations import (_af_commutes_with, _af_invert,
     _af_rmul, _af_rmuln, _af_pow, Cycle)
 from sympy.combinatorics.util import (_check_cycles_alt_sym,
